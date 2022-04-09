@@ -1,6 +1,7 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import Banner from "../components/banner/Banner";
+import NavBar from "../components/nav/navbar";
 
 export default function Home() {
   return (
@@ -11,15 +12,13 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <h1>Troubleflix</h1>
-
+      <NavBar username="Toto@gmail.com" />
       <Banner
         title="The Godfather"
         subTitle="Sicilian Mafia story in US"
         imgUrl="/static/The_Godfather_movie_logo.png"
       />
-      {/*<NavBar/>
-  <Card/>*/}
+      {/*<Card/>*/}
     </div>
   );
 }
