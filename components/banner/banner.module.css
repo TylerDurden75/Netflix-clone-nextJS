@@ -63,6 +63,14 @@
 
 .playText {
   color: rgb(31, 41, 55);
+}
+
+.infoText {
+  color: var(--white10);
+}
+
+.playText,
+.infoText {
   font-weight: 600;
   font-size: 1.125rem /* 18px */;
   line-height: 1.75rem /* 28px */;
@@ -71,7 +79,7 @@
 }
 
 .bannerImg {
-  position: absolute;
+  position: relative;
   width: 100%;
   height: 100%;
   bottom: 0px;
@@ -85,20 +93,39 @@
   background-position: "50% 50%";
 }
 
-.btnWithIcon {
+.btnWithIcon,
+.btnWithIcon2 {
   display: flex;
   align-items: center;
   justify-content: center;
   padding-left: 1.25rem /* 20px */;
   padding-right: 1.25rem /* 20px */;
   margin-top: 1.25rem /* 20px */;
+  margin-right: 1rem;
 
   border-radius: 0.5rem /* 8px */;
   padding-top: 0.5rem /* 8px */;
   padding-bottom: 0.5rem /* 8px */;
 
+  height: 2.5rem;
+}
+
+.btnWithIcon {
   background-color: var(--white10);
-  width: 8rem /* 128px */;
+  width: 9rem /* 128px */;
+}
+
+.btnWithIcon2 {
+  background-color: rgb(92, 90, 90);
+  /* width: 12rem; */
+}
+
+.btnWithIcon:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.btnWithIcon2:hover {
+  background-color: rgba(96, 96, 96, 0.514);
 }
 
 @media (min-width: 768px) {
@@ -119,7 +146,12 @@
   }
 
   .playText {
-    font-size: 1.25rem /* 20px */;
+    font-size: 1rem /* 20px */;
+    line-height: 1.75rem /* 28px */;
+  }
+
+  .infoText {
+    font-size: 1rem /* 20px */;
     line-height: 1.75rem /* 28px */;
   }
 }

@@ -1,7 +1,9 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
+
 import Banner from "../components/banner/Banner";
 import NavBar from "../components/nav/navbar";
+import Card from "../components/card/card";
 
 export default function Home() {
   return (
@@ -14,11 +16,13 @@ export default function Home() {
 
       <NavBar username="Toto@gmail.com" />
       <Banner
-        title="The Godfather"
-        subTitle="Sicilian Mafia story in US"
-        imgUrl="/static/The_Godfather_movie_logo.png"
+        title="Snatch"
+        subTitle="A Gipsy always have a plan"
+        imgUrl="/static/snatch.jpg"
       />
-      {/*<Card/>*/}
+      <Card imgUrl="/static/snatch.jpg" size="large" />
+      <Card size="medium" />
+      <Card imgUrl="/static/snatch.jpg" size="small" />
     </div>
   );
 }

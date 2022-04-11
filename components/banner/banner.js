@@ -27,6 +27,15 @@ const Banner = ({ title, subTitle, imgUrl }) => {
               />
               <span className={styles.playText}>Play</span>
             </button>
+            <button className={styles.btnWithIcon2}>
+              <Image
+                src="/static/info.svg"
+                alt="play-icon"
+                width="24px"
+                height="24px"
+              />
+              <span className={styles.infoText}>More Info</span>
+            </button>
           </div>
         </div>
       </div>
