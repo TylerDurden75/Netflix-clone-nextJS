@@ -5,18 +5,10 @@ import Banner from "../components/banner/Banner";
 import NavBar from "../components/nav/navbar";
 import SectionCards from "../components/card/section-cards";
 
+import { getVideos } from "../lib/videos";
+
 export default function Home() {
-  const disneyVideos = [
-    {
-      imgUrl: "/static/snatch.jpg",
-    },
-    {
-      imgUrl: "/static/snatch.jpg",
-    },
-    {
-      imgUrl: "/static/snatch.jpg",
-    },
-  ];
+  const disneyVideos = getVideos();
 
   return (
     <div className={styles.container}>

@@ -1,0 +1,854 @@
+{
+  "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "3b0uAJv_I_QOfYbqUs7R4cryzLU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "ma67yOdMQfs"
+      },
+      "snippet": {
+        "publishedAt": "2021-01-23T17:00:15Z",
+        "channelId": "UC--3c8RqSfAqYBdDjIG3UNA",
+        "title": "These Were The All-Time Surfing Moments Of The Year | Best Of 2020",
+        "description": "Well, that was a weird ride. Though it hasn't been easy, at least when we fixed our gaze on the ocean — or favorite place in the ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ma67yOdMQfs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ma67yOdMQfs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ma67yOdMQfs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Red Bull Surfing",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-01-23T17:00:15Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "M5eWuB99HjGJww7dtMIpt0erRD4",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "i9_y8ourjoM"
+      },
+      "snippet": {
+        "publishedAt": "2022-04-10T14:00:17Z",
+        "channelId": "UC4qa5EroJxnQM6Sng9WhgsQ",
+        "title": "Surfing with Dolphins in New Jersey!",
+        "description": "It's not that often that I get to surf with Dolphins here in New Jersey. I was paddling for waves & I could see the dolphins swimming ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/i9_y8ourjoM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/i9_y8ourjoM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/i9_y8ourjoM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Ben Gravy",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-04-10T14:00:17Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "2RxLNERSULKWgPVADKZCv_kmOWI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "c6lU-xYRjFA"
+      },
+      "snippet": {
+        "publishedAt": "2022-03-28T18:58:35Z",
+        "channelId": "UC--3c8RqSfAqYBdDjIG3UNA",
+        "title": "The World Loves Surfing | Best Of Red Bull Surfing 2021",
+        "description": "What a year. 2021 was packed to the gills with everything the surfing world has to offer. Whether it be world title races, the biggest ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/c6lU-xYRjFA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/c6lU-xYRjFA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/c6lU-xYRjFA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Red Bull Surfing",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-03-28T18:58:35Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "1azR9zn5JNZkGSZaOZXJJwCHbI4",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "vQtIJw0qFbY"
+      },
+      "snippet": {
+        "publishedAt": "2022-04-11T04:32:14Z",
+        "channelId": "UChuLeaTGRcfzo0UjL-2qSbQ",
+        "title": "Slater, Young, O. Wright | Rip Curl Pro Bells Beach Opening Round Heat Replay",
+        "description": "Heat Replay of Kelly Slater, Nat Young, Owen Wright at the Rip Curl Pro Bells Beach - Opening Round Bells Beach means history ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/vQtIJw0qFbY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/vQtIJw0qFbY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/vQtIJw0qFbY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "World Surf League",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-04-11T04:32:14Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "yRMV15LyV7D4CJABb3yySZOWQTg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "DfhG10s0wXU"
+      },
+      "snippet": {
+        "publishedAt": "2022-04-11T06:19:48Z",
+        "channelId": "UChuLeaTGRcfzo0UjL-2qSbQ",
+        "title": "Top Waves Of Day 1 | Rip Curl Pro Bells Beach",
+        "description": "Here are the top waves of day 1 of the Rip Curl Pro Bells Beach #WSL Subscribe to the WSL for more action: https://goo.gl/VllRuj ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/DfhG10s0wXU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/DfhG10s0wXU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/DfhG10s0wXU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "World Surf League",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-04-11T06:19:48Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "eeJld8mF4QTyxANsU4_tO5gAJAc",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "dexWs7urJtk"
+      },
+      "snippet": {
+        "publishedAt": "2022-03-31T21:04:04Z",
+        "channelId": "UCNyxrRXa3PvyJYuFP51iU-Q",
+        "title": "Surfing through Portugal",
+        "description": "Back in Europe, exploring the Portugal coastline for the first time in a few years. Surfers featured: @John John Florence Kolohe ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/dexWs7urJtk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/dexWs7urJtk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/dexWs7urJtk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "John John Florence",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-03-31T21:04:04Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "26wn8Kd11U_1drHfA3nBHB2T43E",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "ar1TkD5Cz_o"
+      },
+      "snippet": {
+        "publishedAt": "2019-01-16T15:00:02Z",
+        "channelId": "UC--3c8RqSfAqYBdDjIG3UNA",
+        "title": "One Last Look At The Best Surf Videos Of 2018",
+        "description": "Join us for a final look at one of the most exciting years in surfing. 2018 was packed with epic moments in surfing, from Indonesia ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ar1TkD5Cz_o/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ar1TkD5Cz_o/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ar1TkD5Cz_o/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Red Bull Surfing",
+        "liveBroadcastContent": "none",
+        "publishTime": "2019-01-16T15:00:02Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "1X3HBes2WkVrwTm66lVhCCWtYok",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "-uKmJ8ANygg"
+      },
+      "snippet": {
+        "publishedAt": "2022-04-07T02:00:26Z",
+        "channelId": "UCiWTRcls77dL9YHCrpE09wQ",
+        "title": "Deadman Delights",
+        "description": "There's a special big wave slab spot 25 minutes from my Sydney home and when all the stars align Deadman's can seriously put ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/-uKmJ8ANygg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/-uKmJ8ANygg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/-uKmJ8ANygg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "SURFING VISIONS",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-04-07T02:00:26Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "5e_4VyKSKxS4h4CGzWmOTd_dc80",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "HB2jZut-Wnc"
+      },
+      "snippet": {
+        "publishedAt": "2022-01-24T05:28:15Z",
+        "channelId": "UCVo06dBGK9VBBhq15wJxZHQ",
+        "title": "🔴4k Pipeline Surf - 1/21/22 - Does it Get Much Better Then This??🆕",
+        "description": "Filmed at Banzai Pipeline, Oahu on January 21st, 2022 by Andy Potts and Jr Maosi Let me know what you thought of today's ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/HB2jZut-Wnc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/HB2jZut-Wnc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/HB2jZut-Wnc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Chris Kincade Media - Waves of the World ",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-01-24T05:28:15Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "MMnNpgFD7lhpHbmpL05Qdo_7hO8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "ZIecK5tBFWA"
+      },
+      "snippet": {
+        "publishedAt": "2022-04-11T06:18:33Z",
+        "channelId": "UChuLeaTGRcfzo0UjL-2qSbQ",
+        "title": "Highlights Day 1 | Igarashi Goes Excellent For His First Time Rocking The Yellow Leaders Jersey",
+        "description": "Bells Beach means history and heritage for both surfing and Australia. As the longest-running event on tour, it is a proving ground ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ZIecK5tBFWA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ZIecK5tBFWA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ZIecK5tBFWA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "World Surf League",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-04-11T06:18:33Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "XGVocQlibd9uHlQ3t3sy5ZWSkzk",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "HzgFSPIWmAY"
+      },
+      "snippet": {
+        "publishedAt": "2022-03-18T02:34:37Z",
+        "channelId": "UC-Zt7GPzlrPPQexkG9-shPg",
+        "title": "&quot;Pacific Dreams 2&quot; A California Surfing Film",
+        "description": "Pacific Dreams 2 is the sequel to the popular surfing film Pacific Dreams. The surf film showcases the best surfing clips from ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/HzgFSPIWmAY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/HzgFSPIWmAY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/HzgFSPIWmAY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Surf Rinse Repeat",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-03-18T02:34:37Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "yDNHa0yaT7N8pMJ7tULjg0XaqXc",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "W7h-Yho8EB0"
+      },
+      "snippet": {
+        "publishedAt": "2019-06-15T15:21:45Z",
+        "channelId": "UCqhnX4jA0A5paNd1v-zEysw",
+        "title": "GoPro: Top 10 Surf Moments",
+        "description": "Celebrate International Surf Day with GoPro's Top 10 Surf Moments. Shot 100% on GoPro: http://bit.ly/2wUMwfI Get stoked and ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/W7h-Yho8EB0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/W7h-Yho8EB0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/W7h-Yho8EB0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "GoPro",
+        "liveBroadcastContent": "none",
+        "publishTime": "2019-06-15T15:21:45Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "nXOiCRW1tP2rXe-R_qCjGO7S-gY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "dnu8nhYXeWY"
+      },
+      "snippet": {
+        "publishedAt": "2022-04-08T22:00:27Z",
+        "channelId": "UChuLeaTGRcfzo0UjL-2qSbQ",
+        "title": "John John Florence vs Filipe Toledo &#39;19 BELLS BEACH FINAL!! | Full Heat Replay",
+        "description": "Flashback to 2019 Bells Beach where John John Florence was consistently the sharpest with his rail game -- attacking huge, ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/dnu8nhYXeWY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/dnu8nhYXeWY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/dnu8nhYXeWY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "World Surf League",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-04-08T22:00:27Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ruHHWsBOK5FVHqRcygeDdnXzqeY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "rj7xMBxd5iY"
+      },
+      "snippet": {
+        "publishedAt": "2017-11-12T11:09:52Z",
+        "channelId": "UCiiFGfvlKvX3uzMovO3unaw",
+        "title": "BIG WAVE SURFING COMPILATION 2017",
+        "description": "BIG WAVE SURFING COMPILATION 2017 ** REVISED **AMAZING FOOTAGE ** WITH 60-100FT- HUGE SURF Please ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/rj7xMBxd5iY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/rj7xMBxd5iY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/rj7xMBxd5iY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Absolutely Flawless",
+        "liveBroadcastContent": "none",
+        "publishTime": "2017-11-12T11:09:52Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "vMpgOGf3_0zX45RjfLNkdDljUuk",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "6GUtd7f1_Xo"
+      },
+      "snippet": {
+        "publishedAt": "2019-01-01T20:01:55Z",
+        "channelId": "UCVk7uRN7g-q_uHMaAjHxk8A",
+        "title": "THE GIRLS OF SURFING XIX",
+        "description": "The Girls of Surfing 2018 edition Join the page here : https://www.facebook.com/thegirlsofsurfing/ Instagram @jolieoligny Twitter ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/6GUtd7f1_Xo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/6GUtd7f1_Xo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/6GUtd7f1_Xo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "thegirlsofsurfing",
+        "liveBroadcastContent": "none",
+        "publishTime": "2019-01-01T20:01:55Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "FDNeXOc3gU-OZXzvmoGWnGzuWI0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "UzOuel66Nis"
+      },
+      "snippet": {
+        "publishedAt": "2022-04-06T18:00:08Z",
+        "channelId": "UC_F4Iy5korq2mEWZDQhG07w",
+        "title": "SURFING PUMPING WAVES ON NORTH SHORE WITH BLIILY, NATE, AND IVAN!",
+        "description": "Get your This is Livin' merch! https://koarothman.com/ The team lands back in Hawaii for some fun spring time swells and good ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/UzOuel66Nis/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/UzOuel66Nis/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/UzOuel66Nis/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Koa Rothman",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-04-06T18:00:08Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Bsbxa6CZ_T0IL-p4-SYAXu4zbGM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "a8CpEDkPCeU"
+      },
+      "snippet": {
+        "publishedAt": "2022-04-11T06:24:48Z",
+        "channelId": "UChuLeaTGRcfzo0UjL-2qSbQ",
+        "title": "WATCH LIVE Rip Curl Pro Bells Beach - Day 1",
+        "description": "Bells Beach means history and heritage for both surfing and Australia. As the longest-running event on tour, it is a proving ground ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/a8CpEDkPCeU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/a8CpEDkPCeU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/a8CpEDkPCeU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "World Surf League",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-04-11T06:24:48Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "9DVZaUMS5FtomGg1oqmWUUNRbpo",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "BTcm_gqH4TU"
+      },
+      "snippet": {
+        "publishedAt": "2022-04-03T05:37:46Z",
+        "channelId": "UC3DIR1s_jw1wr4p4wWg7JGQ",
+        "title": "RAW MARCH:  Surfing the Superbank, Lennox Point, Cabarita, Greenmount, Burleigh Heads",
+        "description": "Raw Surfing - March was a great month for swells with three solid swells. Check out some of the action up and down the coast in ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/BTcm_gqH4TU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/BTcm_gqH4TU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/BTcm_gqH4TU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Raw Surfing",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-04-03T05:37:46Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "iIzruviLYKHM_cIXg6hGh-Pxjdo",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Xu6DQwmIH9k"
+      },
+      "snippet": {
+        "publishedAt": "2022-04-10T03:58:41Z",
+        "channelId": "UCsG5dkqFUHZO6eY9uOzQqow",
+        "title": "Gabriel Medina&#39;s Cousin Is Surfing More &amp; More Like Gabriel Medina | Rodrigo Saldanha in Hawaii",
+        "description": "This is concerning... Filmed and edited by Caio Baker. Additional footage from Bruno Zanin (@brunozanin_), Alex Miranda ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Xu6DQwmIH9k/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Xu6DQwmIH9k/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Xu6DQwmIH9k/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Stab: We like to surf",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-04-10T03:58:41Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Ax4eN2iSIBraCrki2OOFFH8_aQU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "9p9TYm_xtRw"
+      },
+      "snippet": {
+        "publishedAt": "2020-10-30T06:00:12Z",
+        "channelId": "UCOtHosOqPe9d6vLy-8LfHzQ",
+        "title": "Australia&#39;s Beautiful Surfing Film &quot;A MANO SURF&quot;",
+        "description": "Shot throughout the Northern Rivers of NSW, Australia, the film romanticizes different forms of wave riding and the art of hand ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/9p9TYm_xtRw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/9p9TYm_xtRw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/9p9TYm_xtRw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "NobodySurf : Surfing Videos",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-10-30T06:00:12Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "T_9sksdXFdHnceY6XTKbhMYIx-c",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "CnFdiX-rKmY"
+      },
+      "snippet": {
+        "publishedAt": "2022-03-29T07:15:36Z",
+        "channelId": "UCoicMEw3njXscfwHlaAJVcQ",
+        "title": "POV SURFING PERFECTION!! (AIRS, TURNS &amp; BARRELS)",
+        "description": "POV Surfing some GLASSY days at home! Enjoy watching high-performance AIRS, TURNS and BARRELS Want ONLINE ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/CnFdiX-rKmY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/CnFdiX-rKmY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/CnFdiX-rKmY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Surfing With Noz",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-03-29T07:15:36Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "f1Fc94uJKvzXIojSmenFDP1ct_8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "pmlzdeZuAk8"
+      },
+      "snippet": {
+        "publishedAt": "2021-02-27T14:28:13Z",
+        "channelId": "UCxkIzPnPzWLz4IeuxIROflg",
+        "title": "What Surfing Is ACTUALLY Like as a Beginner",
+        "description": "See what it's actually like to surf as a beginner, including why it's fun and why it kind of sucks at times! Click below to join the ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/pmlzdeZuAk8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/pmlzdeZuAk8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/pmlzdeZuAk8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Travis Marziani",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-02-27T14:28:13Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "aLI9W6dZZrbQaqQqhdP8MAD9esY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "o6wf2yriTAE"
+      },
+      "snippet": {
+        "publishedAt": "2022-03-29T10:20:36Z",
+        "channelId": "UC8pmG8IGaDyDTc6xBJiyXBQ",
+        "title": "Superbank Awakens Tuesday 29 March 2022 Surfing Australia",
+        "description": "Superbank woke up today with a decent jump in swell from yesterday , after lunch the wind moved more offshore and cleaned up ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/o6wf2yriTAE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/o6wf2yriTAE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/o6wf2yriTAE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Surf Today ",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-03-29T10:20:36Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "V5TLbjFyz5PxwUMS3YA73n76rKI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "jpRjpF-2lqg"
+      },
+      "snippet": {
+        "publishedAt": "2019-06-25T16:36:07Z",
+        "channelId": "UC--3c8RqSfAqYBdDjIG3UNA",
+        "title": "Exploring The World-Class Waves of Cape Town With The City&#39;s Best Surfers | Made In South Africa Ep1",
+        "description": "In Episode 1 of Made In South Africa, filmmaker Jason Hearn explores the rich, diverse surfing possibilities of his home country's ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/jpRjpF-2lqg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/jpRjpF-2lqg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/jpRjpF-2lqg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Red Bull Surfing",
+        "liveBroadcastContent": "none",
+        "publishTime": "2019-06-25T16:36:07Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ZP8K3svXH5urq8PdTgozoaPjPps",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "LUdqckbhzwY"
+      },
+      "snippet": {
+        "publishedAt": "2021-09-13T21:53:44Z",
+        "channelId": "UCsG5dkqFUHZO6eY9uOzQqow",
+        "title": "A 100% Authentic New Zealand Surf Film | &#39;Bro Town&#39;",
+        "description": "When it comes to New Zealand, local boys Elliot Paerata Reid, Kehu Butler, Ware Wano, and Dune Kennings know exactly when ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/LUdqckbhzwY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/LUdqckbhzwY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/LUdqckbhzwY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Stab: We like to surf",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-09-13T21:53:44Z"
+      }
+    }
+  ]
+}
