@@ -4,6 +4,7 @@ import styles from "../styles/Home.module.css";
 import Banner from "../components/banner/Banner";
 import NavBar from "../components/nav/navbar";
 import Card from "../components/card/card";
+import SectionCards from "../components/card/section-cards";
 
 export default function Home() {
   return (
@@ -20,9 +21,9 @@ export default function Home() {
         subTitle="A Gipsy always have a plan"
         imgUrl="/static/snatch.jpg"
       />
-      <Card imgUrl="/static/snatch.jpg" size="large" />
-      <Card size="medium" />
-      <Card imgUrl="/static/snatch.jpg" size="small" />
+      <div className={styles.sectionWrapper}>
+        <SectionCards title="Disney" />
+      </div>
     </div>
   );
 }
