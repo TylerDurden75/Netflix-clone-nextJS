@@ -28,7 +28,14 @@ const NavBar = ({ username }) => {
     <div className={styles.container}>
       <div className={styles.wrapper}>
         <a className={styles.logoLink} href="/">
-          <div className={styles.logoWrapper}>Troubleflix</div>
+          <div className={styles.logoWrapper}>
+            <Image
+              src="/static/netflix.svg"
+              alt="Netflix logo"
+              width="128px"
+              height="34px"
+            />
+          </div>
         </a>
         <ul className={styles.navItems}>
           <li className={styles.navItem} onClick={handleClickHome}>
