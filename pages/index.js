@@ -9,7 +9,7 @@ import { getVideos } from "../lib/videos";
 
 //Server side rendering
 export async function getServerSideProps() {
-  const disneyVideos = getVideos();
+  const disneyVideos = await getVideos();
   return { props: { disneyVideos } };
 }
 
@@ -30,7 +30,7 @@ export default function Home({ disneyVideos }) {
         imgUrl="/static/snatch.jpg"
       />
       <div className={styles.sectionWrapper}>
-        <SectionCards title="Disney" videos={disneyVideos} size="large" />
+        <SectionCards title="Marvel" videos={disneyVideos} size="large" />
         <SectionCards title="Productivity" videos={disneyVideos} size="small" />
       </div>
     </div>
