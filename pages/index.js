@@ -5,16 +5,25 @@ import Banner from "../components/banner/Banner";
 import NavBar from "../components/nav/navbar";
 import SectionCards from "../components/card/section-cards";
 
-import { getVideos } from "../lib/videos";
+import { getVideos, getPopularVideos } from "../lib/videos";
 
 //Server side rendering
 export async function getServerSideProps() {
-  const disneyVideos = await getVideos();
-  return { props: { disneyVideos } };
+  const disneyVideos = await getVideos("marvel trailer");
+  const popularVideos = await getPopularVideos();
+  const docuVideos = await getVideos("docu");
+  const cookingVideos = await getVideos("cooking trailer");
+  return {
+    props: { disneyVideos, popularVideos, docuVideos, cookingVideos },
+  };
 }
 
-export default function Home({ disneyVideos }) {
-  console.log({ disneyVideos });
+export default function Home({
+  disneyVideos,
+  popularVideos,
+  docuVideos,
+  cookingVideos,
+}) {
   return (
     <div className={styles.container}>
       <Head>
@@ -23,15 +32,19 @@ export default function Home({ disneyVideos }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <NavBar username="Toto@gmail.com" />
-      <Banner
-        title="Snatch"
-        subTitle="A Gipsy always have a plan"
-        imgUrl="/static/snatch.jpg"
-      />
-      <div className={styles.sectionWrapper}>
-        <SectionCards title="Marvel" videos={disneyVideos} size="large" />
-        <SectionCards title="Productivity" videos={disneyVideos} size="small" />
+      <div className={styles.main}>
+        <NavBar username="Toto@gmail.com" />
+        <Banner
+          title="Snatch"
+          subTitle="A Gipsy always have a plan"
+          imgUrl="/static/snatch.jpg"
+        />
+        <div className={styles.sectionWrapper}>
+          <SectionCards title="Marvel" videos={disneyVideos} size="large" />
+          <SectionCards title="Popular" videos={popularVideos} size="small" />
+          <SectionCards title="Documentary" videos={docuVideos} size="medium" />
+          <SectionCards title="Cooking" videos={cookingVideos} size="small" />
+        </div>
       </div>
     </div>
   );
