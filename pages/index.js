@@ -12,7 +12,7 @@ export async function getServerSideProps() {
   const disneyVideos = await getVideos("marvel trailer");
   const popularVideos = await getPopularVideos();
   const docuVideos = await getVideos("docu");
-  const cookingVideos = await getVideos("cooking trailer");
+  const cookingVideos = await getVideos("chef");
   return {
     props: { disneyVideos, popularVideos, docuVideos, cookingVideos },
   };
@@ -33,7 +33,7 @@ export default function Home({
       </Head>
 
       <div className={styles.main}>
-        <NavBar username="Toto@gmail.com" />
+        <NavBar />
         <Banner
           title="Snatch"
           subTitle="A Gipsy always have a plan"
