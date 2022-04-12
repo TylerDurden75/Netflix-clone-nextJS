@@ -38,6 +38,7 @@ export default function Home({
           title="Snatch"
           subTitle="A Gipsy always have a plan"
           imgUrl="/static/snatch.jpg"
+          videoId="m9EX0f6V11Y"
         />
         <div className={styles.sectionWrapper}>
           <SectionCards title="Marvel" videos={disneyVideos} size="large" />
