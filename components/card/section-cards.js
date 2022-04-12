@@ -9,11 +9,13 @@ const SectionCards = ({ title, videos = [], size }) => {
       <div className={styles.cardWrapper}>
         {videos.map((video, i) => {
           return (
-            <Link href={`/video/${video.id}`}>
-              <a>
-                <Card key={i} id={i} imgUrl={video.imgUrl} size={size} />
-              </a>
-            </Link>
+            <>
+              <Link href={`/video/${video.id}`}>
+                <a>
+                  <Card key={i} id={i} imgUrl={video.imgUrl} size={size} />
+                </a>
+              </Link>
+            </>
           );
         })}
       </div>
