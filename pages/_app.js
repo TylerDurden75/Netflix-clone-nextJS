@@ -8,10 +8,6 @@ function MyApp({ Component, pageProps }) {
 
   useEffect(() => {
     getIsLoggedInAndRedirect();
-
-    return () => {
-      getIsLoggedInAndRedirect();
-    };
   }, []);
 
   const getIsLoggedInAndRedirect = async () => {
