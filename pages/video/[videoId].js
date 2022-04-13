@@ -1,23 +1,46 @@
 import { useRouter } from "next/router";
 import Modal from "react-modal";
 
+import { getYoutubeVideoById } from "../../lib/videos";
+
 import styles from "../../styles/Video.module.css";
 import cl from "classnames";
 
 Modal.setAppElement("#__next");
 
-const Video = () => {
+export async function getStaticProps(context) {
+  const videoId = context.params.videoId;
+
+  const videoArray = await getYoutubeVideoById(videoId);
+
+  return {
+    props: {
+      video: videoArray.length > 0 ? videoArray[0] : {},
+    },
+    revalidate: 10,
+  };
+}
+
+export async function getStaticPaths() {
+  const listOfVideo = ["9Jar2XkBboo", "h6hZkvrFIj0", "8LuxOYIpu-I"]; //snatch / lock / trainspotting
+
+  const paths = listOfVideo.map((videoId) => ({
+    params: { videoId },
+  }));
+
+  return { paths, fallback: "blocking" };
+}
+
+const Video = ({ video }) => {
   const router = useRouter();
 
-  const video = {
-    title: "Toto",
-    publishTime: "2022-13-04",
-    description: "Avenger best history blablbalabalabala",
-    channelTitle: "Marvel",
-    viewCount: 10000,
-  };
-
-  const { title, publishTime, description, channelTitle, viewCount } = video;
+  const {
+    title,
+    publishTime,
+    description,
+    channelTitle,
+    statistics: { viewCount } = { viewCount: 0 },
+  } = video;
 
   return (
     <div className={styles.container}>
