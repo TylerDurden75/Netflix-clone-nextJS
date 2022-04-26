@@ -1,11 +1,20 @@
+import jwt from "jsonwebtoken";
+import { findVideoIdByUser } from "../../lib/db/hasura";
+
 export default async function stats(req, res) {
   if (req.method === "POST") {
-    console.log({ cookies: req.cookies });
     try {
-      if (!req.cookies.token) {
+      const token = req.cookies.token;
+      if (!token) {
         res.status(403).send({});
       } else {
-        res.send({ msg: "it's ok" });
+        const videoId = req.query.videoId;
+        const decodedToken = jwt.verify(token, process.env.JWT_SECRET);
+
+        const userId = decodedToken.issuer;
+
+        const findVideoId = await findVideoIdByUser(token, userId, videoId);
+        res.send({ msg: "it's ok", decodedToken, findVideoId });
       }
     } catch (error) {
       console.error("Something went wrong /stats", error);
