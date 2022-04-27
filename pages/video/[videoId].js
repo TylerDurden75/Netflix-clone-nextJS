@@ -50,35 +50,35 @@ const Video = ({ video }) => {
     statistics: { viewCount } = { viewCount: 0 },
   } = video;
 
-  const handleToggleDislike = async () => {
-    setToggleDislike(!toggleDislike);
-    setToggleLike(toggleDislike);
-
-    const val = !toggleDislike;
-
-    const response = await fetch("/api/stats", {
+  const runRatingService = async (favourited) => {
+    return await fetch("/api/stats", {
       method: "POST",
-      body: JSON.stringify({ videoId, favourited: val ? 0 : 1 }),
+      body: JSON.stringify({ videoId, favourited }),
       headers: {
         "Content-type": "application/json",
       },
     });
+  };
+
+  const handleToggleDislike = async () => {
+    const val = !toggleDislike;
+    setToggleDislike(!toggleDislike);
+    setToggleLike(toggleDislike);
+
+    const favourited = val ? 0 : 1;
+    const response = await runRatingService(favourited);
+
     console.log("data", await response.json());
   };
 
   const handleToggleLike = async () => {
+    const val = !toggleLike;
     setToggleLike(val);
     setToggleDislike(toggleLike);
 
-    const val = !toggleLike;
+    const favourited = val ? 1 : 0;
+    const response = await runRatingService(favourited);
 
-    const response = await fetch("/api/stats", {
-      method: "POST",
-      body: JSON.stringify({ videoId, favourited: val ? 1 : 0 }),
-      headers: {
-        "Content-type": "application/json",
-      },
-    });
     console.log("data", await response.json());
   };
 
