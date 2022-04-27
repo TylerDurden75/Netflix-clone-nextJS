@@ -18,7 +18,6 @@ export async function getServerSideProps() {
     "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3N1ZXIiOiJkaWQ6ZXRocjoweDNCMjJBODExOWVCNEFiMEQxQmFFRWNiNjk5OTVmMDg2RjI0MWVhMmYiLCJwdWJsaWNBZGRyZXNzIjoiMHgzQjIyQTgxMTllQjRBYjBEMUJhRUVjYjY5OTk1ZjA4NkYyNDFlYTJmIiwiZW1haWwiOiJ0aGliYXVsdGouZGV2QGdtYWlsLmNvbSIsIm9hdXRoUHJvdmlkZXIiOm51bGwsInBob25lTnVtYmVyIjpudWxsLCJhZG1pbiI6dHJ1ZSwiaWF0IjoxNjUxMDQ4OTE0LCJleHAiOjE2NTE2NTM3MTQsImh0dHBzOi8vaGFzdXJhLmlvL2p3dC9jbGFpbXMiOnsieC1oYXN1cmEtYWxsb3dlZC1yb2xlcyI6WyJ1c2VyIiwiYWRtaW4iXSwieC1oYXN1cmEtZGVmYXVsdC1yb2xlIjoidXNlciIsIngtaGFzdXJhLXVzZXItaWQiOiJkaWQ6ZXRocjoweDNCMjJBODExOWVCNEFiMEQxQmFFRWNiNjk5OTVmMDg2RjI0MWVhMmYifX0.IdnKTqn9E1HGeptAP5QJepIVLlY3GsDtKuMI3jHBWIU";
 
   const watchItAgainVideos = await getWatchItAgainVideos(userId, token);
-  console.log({ watchItAgainVideos });
   const disneyVideos = await getVideos("marvel trailer");
   const popularVideos = await getPopularVideos();
   const docuVideos = await getVideos("docu");
