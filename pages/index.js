@@ -1,6 +1,8 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
 
+import useRedirectUser from "../utils/useRedirectUser";
+
 import Banner from "../components/banner/Banner";
 import NavBar from "../components/nav/navbar";
 import SectionCards from "../components/card/section-cards";
@@ -10,23 +12,10 @@ import {
   getPopularVideos,
   getWatchItAgainVideos,
 } from "../lib/videos";
-import { verifyToken } from "../lib/utils";
 
 //Server side rendering
 export async function getServerSideProps(context) {
-  const token = context.req ? context.req?.cookies.token : null;
-  console.log({ token });
-  const userId = null;
-
-  if (!userId) {
-    return {
-      props: {},
-      redirect: {
-        destination: "/login",
-        permanent: false,
-      },
-    };
-  }
+  const { userId, token } = await useRedirectUser(context);
 
   const watchItAgainVideos = await getWatchItAgainVideos(userId, token);
   const disneyVideos = await getVideos("marvel trailer");
