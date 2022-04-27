@@ -1,4 +1,6 @@
-import { Head } from "next/head";
+import Head from "next/head";
+import styles from "../../styles/Mylist.module.css";
+
 import SectionCards from "../../components/card/section-cards";
 import NavBar from "../../components/nav/navbar";
 
@@ -8,9 +10,9 @@ const MyList = () => {
       <Head>
         <title>My list</title>
       </Head>
-      <main>
+      <main className={styles.main}>
         <NavBar />
-        <div>
+        <div className={styles.sectionWrapper}>
           <SectionCards title="My list" videos={[]} size="small" />
         </div>
       </main>
