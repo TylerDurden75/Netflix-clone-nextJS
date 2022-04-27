@@ -8,6 +8,7 @@ const Card = ({
   imgUrl = "https://images.unsplash.com/photo-1560109947-543149eceb16?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80",
   size = "medium",
   id,
+  shouldScale = true,
 }) => {
   const [imgSrc, setImgSrc] = useState(imgUrl);
 
@@ -26,11 +27,15 @@ const Card = ({
 
   const scale = id === 0 ? { scaleY: 1.1 } : { scale: 1.1 };
 
+  const shouldHover = shouldScale && {
+    whileHover: { ...scale },
+  };
+
   return (
     <div className={styles.container}>
       <motion.div
         className={cl(styles.imgMotionWrapper, classMap[size])}
-        whileHover={{ ...scale }}
+        {...shouldHover}
       >
         <Image
           src={imgSrc}
