@@ -10,28 +10,24 @@ import { magic } from "../../lib/magic-client";
 const NavBar = () => {
   const [showdropdown, setShowdropdown] = useState(false);
   const [username, setUsername] = useState("");
+  const [didToken, setDidToken] = useState("");
   const router = useRouter();
 
   useEffect(() => {
-    getEmailFromMagic();
+    (async () => {
+      try {
+        const { email } = await magic.user.getMetadata();
+        const didToken = await magic.user.getIdToken();
 
-    return () => {
-      getEmailFromMagic();
-    };
-  }, []);
-
-  const getEmailFromMagic = async () => {
-    try {
-      const { email } = await magic.user.getMetadata();
-      const didToken = await magic.user.getIdToken();
-      // console.log({ didToken });
-      if (email) {
-        setUsername(email);
+        if (email) {
+          setUsername(email);
+          setDidToken(didToken);
+        }
+      } catch (error) {
+        console.error("Error retrieving email", error);
       }
-    } catch (error) {
-      console.error("Error retrieving email", error);
-    }
-  };
+    })();
+  }, []);
 
   const handleClickHome = (e) => {
     e.preventDefault();
@@ -52,10 +48,17 @@ const NavBar = () => {
     e.preventDefault();
 
     try {
-      await magic.user.logout();
-      router.push("/login");
+      const response = await fetch("/api/logout", {
+        method: "POST",
+        headers: {
+          Authorization: `Bearer ${didToken}`,
+          "Content-Type": "application/json",
+        },
+      });
+
+      const res = await response.json();
     } catch (error) {
-      console.error("Error logging out", error);
+      console.error("Error logging out ???", error);
       router.push("/login");
     }
   };

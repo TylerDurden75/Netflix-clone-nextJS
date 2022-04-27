@@ -20,7 +20,6 @@ const SectionCards = ({
               <Link href={`/video/${video.id}`}>
                 <a>
                   <Card
-                    key={i}
                     id={i}
                     imgUrl={video.imgUrl}
                     size={size}

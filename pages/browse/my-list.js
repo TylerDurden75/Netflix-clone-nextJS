@@ -10,6 +10,15 @@ import useRedirectUser from "../../utils/useRedirectUser";
 export async function getServerSideProps(context) {
   // eslint-disable-next-line react-hooks/rules-of-hooks
   const { userId, token } = await useRedirectUser(context);
+  if (!userId) {
+    return {
+      props: {},
+      redirect: {
+        destination: "/login",
+        permanent: false,
+      },
+    };
+  }
   const videos = await getMyList(userId, token);
 
   return {
