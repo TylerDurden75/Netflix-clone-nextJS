@@ -3,6 +3,8 @@ import Link from "next/link";
 import styles from "./section-cards.module.css";
 import cl from "classnames";
 
+import { Fragment } from "react";
+
 const SectionCards = ({
   title,
   videos = [],
@@ -16,7 +18,7 @@ const SectionCards = ({
       <div className={cl(styles.cardWrapper, shouldWrap && styles.wrap)}>
         {videos.map((video, i) => {
           return (
-            <>
+            <Fragment key={i}>
               <Link href={`/video/${video.id}`}>
                 <a>
                   <Card
@@ -27,7 +29,7 @@ const SectionCards = ({
                   />
                 </a>
               </Link>
-            </>
+            </Fragment>
           );
         })}
       </div>

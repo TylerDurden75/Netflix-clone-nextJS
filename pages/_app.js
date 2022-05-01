@@ -11,6 +11,23 @@ function MyApp({ Component, pageProps }) {
 
   const router = useRouter();
 
+  // NOT NECESSARY WITH WIDDLEWARE _middleware.js
+  // import { NextResponse } from "next/server";
+  // import { verifyToken } from "../lib/utils";
+
+  // export async function middleware(req, ev) {
+  //   const token = req ? req.cookies?.token : "";
+  //   const userId = await verifyToken(token);
+  //   const { pathname, origin } = req.nextUrl.clone();
+
+  //   if ((token && userId) || pathname.includes(`${origin}/api/login`)) {
+  //     return NextResponse.next();
+  //   }
+  //   if (!token && pathname !== `/login`) {
+  //     return NextResponse.redirect(`${origin}/login`);
+  //   }
+  // }
+
   useEffect(() => {
     (async () => {
       const isLoggedIn = await magic.user.isLoggedIn();

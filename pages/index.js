@@ -18,6 +18,7 @@ export async function getServerSideProps(context) {
   // eslint-disable-next-line react-hooks/rules-of-hooks
   const { userId, token } = await useRedirectUser(context);
 
+  // NOT NECESSARY WITH WIDDLEWARE
   if (!userId) {
     return {
       props: {},
