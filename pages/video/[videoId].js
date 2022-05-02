@@ -56,7 +56,7 @@ const Video = ({ video }) => {
         method: "GET",
       });
       const data = await response.json();
-      console.log({ data });
+      // console.log({ data });
       if (data.length > 0) {
         const favourited = data[0].favourited;
         if (favourited === 1) {
@@ -86,7 +86,7 @@ const Video = ({ video }) => {
     const favourited = val ? 0 : 1;
     const response = await runRatingService(favourited);
 
-    console.log("data", await response.json());
+    // console.log("data", await response.json());
   };
 
   const handleToggleLike = async () => {
@@ -97,7 +97,7 @@ const Video = ({ video }) => {
     const favourited = val ? 1 : 0;
     const response = await runRatingService(favourited);
 
-    console.log("data", await response.json());
+    // console.log("data", await response.json());
   };
 
   return (
