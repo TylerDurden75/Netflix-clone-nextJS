@@ -70,8 +70,8 @@ const NavBar = () => {
           <a className={styles.logoLink}>
             <div className={styles.logoWrapper}>
               <Image
-                src="/static/netflix.svg"
-                alt="Netflix logo"
+                src="/static/nextflix.svg"
+                alt="Nextflix logo"
                 width="128px"
                 height="34px"
               />
