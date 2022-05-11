@@ -73,7 +73,7 @@ const NavBar = () => {
                 src="/static/nextflix.svg"
                 alt="Nextflix logo"
                 width="128px"
-                height="34px"
+                height="68px"
               />
             </div>
           </a>
